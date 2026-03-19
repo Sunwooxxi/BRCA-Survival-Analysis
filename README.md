@@ -1,43 +1,85 @@
-# Survival Analysis of Breast Cancer Using GAN-Generated Synthetic Data
-This study utilizes the Breast Cancer Library data provided by the National Cancer Data Center, which includes clinical information of patients within five years of diagnosis. By applying an AI generative model algorithm to create synthetic data, the research performs a survival analysis and evaluates the extent to which the synthetic data replicates actual survival patterns and risk structures.
+# 🧬 Survival Analysis of Breast Cancer Using GAN-Generated Synthetic Data
 
-## 1. Research Background
-The high degree of data silos in the medical field serves as a major barrier to data-driven research, leading to the accelerated adoption of synthetic data as a viable solution. However, there remains a lack of in-depth discussion regarding whether synthetic data can faithfully replicate the actual risk structures in survival data analysis, which inherently possesses time-dependent characteristics. This study evaluates the statistical validity of synthetic data through survival analysis modeling of breast cancer datasets and examines the limitations regarding information loss and distortion that occur during the data synthesis process
+> Evaluating whether GAN-generated synthetic medical data can reliably replicate real-world survival patterns and risk structures.
 
-## 2. Datasets
-Data Source: Breast cancer synthetic dataset provided by the National Cancer Data Center (NCDC).
-Dimensionality: 57 original variables, reduced to 29 final variables after preprocessing.
-Key Outcomes:
-  Death: Vital status (1 = Deceased, 0 = Censored/Alive)
-  Survival_period: Survival duration measured in days.
+---
 
-## 3. Methodology
-1. Data Preprocessing and Variable Reduction
-2. Kaplan–Meier Survival Curves and Cumulative Hazard Function Analysis
-3. Comparison of Survival Functions Between Groups Using the Log-Rank Test
-4. Cox Proportional Hazards Model
-    - Univariate Cox Analysis
-    - Comparison of Full Model vs. Null Model (C-index, AIC)
-    - Variable Selection Using Backward Elimination Based on AIC
-5. Final Model
-   - Incorporation of Clinical Relevance
-   - Assessment of Interaction Effects
-   - Diagnostics of the Proportional Hazards Assumption
+## Overview
 
-## 4. Key Findings
-- Limitations in Prognostic Granularity: Synthetic data captured general survival trajectories but struggled to isolate the distinct clinical impacts of individual prognostic factors.
-- Limited Predictive Accuracy: The model demonstrated constrained predictive performance, with the C-index reflecting overall limited accuracy.
-- Interpretation Caution: Results underscore the need for rigorous scrutiny of statistical significance and feature selection in synthetic data-driven survival modeling.
-- 
-## 5. Tech Stack
-- Python: pandas, numpy, lifelines, scikit-survival, matplotlib
-- Jupyter Notebook
+This project investigates the validity of synthetic medical data in survival analysis.  
+Using GAN-generated breast cancer datasets, we apply classical survival analysis methods to assess whether synthetic data can reproduce real-world survival behavior and clinical risk structures.
 
-## 6. Repository Structure
-- notebooks/: Jupyter notebooks for data preprocessing, survival analysis, and model diagnostics.
-- docs/: Documentation, including research papers, presentation materials, and dataset descriptions.
-- data/: Raw datasets (Original source data).
-- 
-## 7. Documents
-- `합성데이터기반 유방암 생존분석.pdf` 
-- Powepoint
+---
+
+## Motivation
+
+- Medical data silos limit access to high-quality clinical datasets  
+- Synthetic data is emerging as a scalable alternative  
+- However, its reliability in time-to-event (survival) analysis remains unclear  
+
+This project aims to **evaluate whether synthetic data preserves statistical validity in survival modeling**
+
+---
+
+## Dataset
+
+- **Source**: National Cancer Data Center (NCDC)  
+- **Type**: GAN-generated synthetic breast cancer dataset  
+- **Original Variables**: 57 → **Final Variables**: 29 (after preprocessing)
+
+### Outcome Variables
+- `Death`: 1 = Deceased, 0 = Alive / Censored  
+- `Survival_period`: Time-to-event (days)
+
+---
+
+## Methodology
+
+1. **Data Preprocessing and Variable Reduction**  
+2. **Kaplan–Meier Survival Curves & Cumulative Hazard Analysis**  
+3. **Log-Rank Test for Group Comparison**  
+4. **Cox Proportional Hazards Model**
+   - Univariate Cox Analysis  
+   - Full Model vs. Null Model Comparison (C-index, AIC)  
+   - Backward Elimination Based on AIC  
+5. **Final Model**
+   - Incorporation of Clinical Relevance  
+   - Interaction Effect Assessment  
+   - Proportional Hazards Assumption Diagnostics  
+
+---
+
+## Key Findings
+
+- Synthetic data captures overall survival trends but fails to distinguish fine-grained prognostic effects  
+- Predictive performance is limited (low C-index)  
+- Risk structure distortion and information loss are observed during data generation  
+- Careful interpretation is required when applying synthetic data to survival modeling  
+
+---
+
+## Tech Stack
+
+- **Python**: pandas, numpy, lifelines, scikit-survival, matplotlib  
+- **Environment**: Jupyter Notebook
+
+---
+
+## Repository Structure
+
+notebooks/ # Data preprocessing, survival analysis, modeling
+data/ # Raw and processed datasets
+docs/ # Reports, slides, and references
+README.
+---
+
+## Documents
+
+- `합성데이터기반_유방암_생존분석.pdf`  
+- `presentation.pptx`  
+
+---
+
+## Contact
+
+For questions or collaboration, feel free to reach out.
