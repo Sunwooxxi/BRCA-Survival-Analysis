@@ -16,13 +16,13 @@ Key Outcomes:
 2. Kaplan–Meier Survival Curves and Cumulative Hazard Function Analysis
 3. Comparison of Survival Functions Between Groups Using the Log-Rank Test
 4. Cox Proportional Hazards Model
-  - Univariate Cox Analysis
-  - Comparison of Full Model vs. Null Model (C-index, AIC)
-  - Variable Selection Using Backward Elimination Based on AIC
+    - Univariate Cox Analysis
+    - Comparison of Full Model vs. Null Model (C-index, AIC)
+    - Variable Selection Using Backward Elimination Based on AIC
 5. Final Model
-  - Incorporation of Clinical Relevance
-  - Assessment of Interaction Effects
-  - Diagnostics of the Proportional Hazards Assumption
+   - Incorporation of Clinical Relevance
+   - Assessment of Interaction Effects
+   - Diagnostics of the Proportional Hazards Assumption
 
 ## 4. Key Findings
 - Limitations in Prognostic Granularity: Synthetic data captured general survival trajectories but struggled to isolate the distinct clinical impacts of individual prognostic factors.
@@ -34,16 +34,10 @@ Key Outcomes:
 - Jupyter Notebook
 
 ## 6. Repository Structure
-- `notebooks/` : 전처리, 생존분석, 모형 진단 노트북
-- `docs/` : 논문 및 발표 자료, 데이터 설명 파일
-- `data/` : 원자료
-
+- notebooks/: Jupyter notebooks for data preprocessing, survival analysis, and model diagnostics.
+- docs/: Documentation, including research papers, presentation materials, and dataset descriptions.
+- data/: Raw datasets (Original source data).
+- 
 ## 7. Documents
-- `합성데이터기반 유방암 생존분석.pdf`  
-  : [의학데이터에 대한 생존분석]캡스톤디자인 학위 논문
-
-## 8. Presentation (Large File Notice)
-최종 발표자료는 GitHub 파일 용량 제한으로 인해  
-외부 저장소에 업로드하여 링크로 공유한다.
-
-- File: Final Presentation (PDF)
+- `합성데이터기반 유방암 생존분석.pdf` 
+- Powepoint
