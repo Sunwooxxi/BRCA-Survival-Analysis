@@ -66,13 +66,13 @@ This project aims to **evaluate whether synthetic data preserves statistical val
 ---
 
 ## Repository Structure
-
+```
 ├── data/           # Raw and processed datasets (NCDC Synthetic Data)
 ├── docs/           # Research papers, presentation slides, and data dictionaries
 ├── figures/        # Visualization plots (KM-curves, Hazard functions, etc.)
 ├── notebooks/      # Jupyter notebooks for preprocessing, modeling, and diagnostics
 └── README.md       # Project overview and key findings
-
+```
 ---
 
 ## Documents
