@@ -67,10 +67,10 @@ This project aims to **evaluate whether synthetic data preserves statistical val
 
 ## Repository Structure
 
-notebooks/ # Data preprocessing, survival analysis, modeling
-data/ # Raw and processed datasets
-docs/ # Reports, slides, and references
-README.
+├── notebooks/ # Data preprocessing, survival analysis, modeling
+├── data/ # Raw and processed datasets
+├── docs/ # Reports, slides, and references
+├── README.md
 ---
 
 ## Documents
