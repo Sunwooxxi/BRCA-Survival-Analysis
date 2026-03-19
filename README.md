@@ -66,13 +66,13 @@ This project aims to **evaluate whether synthetic data preserves statistical val
 ---
 
 ## Repository Structure
-~
+`
 ├── notebooks/   # Jupyter notebooks for analysis and modeling
 ├── data/        # Raw and processed datasets
 ├── docs/        # Reports, slides, and references
 ├── figures/     # Visualizations and plots
 ├── README.md    # Project overview
-~
+`
 ---
 
 ## Documents
