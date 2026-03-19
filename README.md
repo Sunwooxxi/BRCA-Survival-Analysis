@@ -1,6 +1,6 @@
-# 🧬 Survival Analysis of Breast Cancer Using GAN-Generated Synthetic Data
+# 🧬 Survival Analysis of Breast Cancer Using GAN-Generated Synthetic Clinical Data
 
-> Evaluating whether GAN-generated synthetic medical data can reliably replicate real-world survival patterns and risk structures.
+> Evaluating whether GAN-generated synthetic clinical data can reliably replicate real-world survival patterns and risk structures.
 
 ---
 
