@@ -78,7 +78,7 @@ This project aims to **evaluate whether synthetic data preserves statistical val
 ## Documents
 
 - `합성데이터기반_유방암_생존분석.pdf`  
-- `presentation.pptx`  
+- `presentation.pdf`  
 
 ---
 
