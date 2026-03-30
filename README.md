@@ -153,3 +153,11 @@ BRCA-Survival-Analysis/
 - 정선우 (Sunwoo Jung)
 
 *Capstone Design — Practical Survival Analysis with Medical Data*
+
+---
+
+## References
+
+- 김재희. (2025.). R을 이용한 생존분석 기초. 자유아카데미.
+- 공경엽. (2006). 유방암에 있어서 예후 및 치료 예측인자. Journal of the Korean Society for Breast Screening, 3(1), 5–12.
+- 윤성욱, 우혜경, 김정은. (2021-06-23). 유방암 생존 예측: 특성 선택 및 예측 모델 비교, 그리고 유전적 특성의 효과. 한국정보과학회 학술발표논문집, 제주.
