@@ -135,7 +135,9 @@ This work provides a rigorous analytical **template** that can be directly appli
 ```
 BRCA-Survival-Analysis/
 ├── data/
-│   └── Adjusted_synbreast_trainset.csv
+│   ├── Adjusted_synbreast_trainset.csv
+│   ├── 합성데이터설명(유방암).csv
+│   └── 암임상+라이브러리+합성데이터(폐암,유방암,대장암)+설명서.pdf
 ├── notebook/
 │   └── 합성데이터 기반 유방암 생존분석.ipynb
 ├── report/
