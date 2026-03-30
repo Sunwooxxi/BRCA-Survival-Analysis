@@ -1,0 +1,62 @@
+﻿유방암 합성데이터 변수설명,,
+NO.,변수명,변수 설명
+0,AGE,진단시연령
+1,inductal carcinoma,조직학적진단명 코드 설명
+2,infiltrating duct carcinoma,조직학적진단명 코드 설명
+3,adenocarcinoma,조직학적진단명 코드 설명
+4,lobular carcinoma,조직학적진단명 코드 설명
+5,Metaplastic carcinoma,조직학적진단명 코드 설명
+6,TX,병기STAGE
+7,T0,병기STAGE
+8,T1,병기STAGE
+9,T1mi,병기STAGE
+10,T1a,병기STAGE
+11,T1b,병기STAGE
+12,T1c,병기STAGE
+13,T2,병기STAGE
+14,T2a,병기STAGE
+15,T2b,병기STAGE
+16,T3,병기STAGE
+17,T4,병기STAGE
+18,Nx,병기STAGE
+19,N1mi,병기STAGE
+20,N1,병기STAGE
+21,N1a,병기STAGE
+22,N1b,병기STAGE
+23,N1c,병기STAGE
+24,N2,병기STAGE
+25,N2a,병기STAGE
+26,N2b,병기STAGE
+27,N3,병기STAGE
+28,N3a,병기STAGE
+29,N3b,병기STAGE
+30,N3c,병기STAGE
+31,M1,병기STAGE
+32,M1a,병기STAGE
+33,M1b,병기STAGE
+34,Type of Drink,음주종류
+35,Smoke,흡연여부
+36,Age of Menarch,초경연령
+37,Age of Menopause,폐경연령
+38,Marriage,결혼여부
+39,Age at first birth,첫출산연령
+40,Number of births,출산자녀수
+41,COCP,경구피임약사용여부
+42,HRT,HRT 사용여부
+43,Height,신장값
+44,Weight,체중측정값
+45,BRCA1 PVs,BRCA1 병원변형체 검출 여부
+46,BRCA1 VUS,BRCA1 미확인변이 검출 여부
+47,BRCA2 PVs,BRCA2 병원변형체 검출 여부
+48,BRCA2 VUS,BRCA2 미확인변이 검출 여부
+49,ER,면역병리ER검사결과코드
+50,PR,면역병리PR검사결과코드
+51,AR,면역병리AR검사결과코드
+52,BCS,유방보전적절제술여부 BCS 
+53,Mestectomy,유방전절제술여부
+54,pan hysterosalpingo oophorectomy,양측난관난소절제술여부
+55,Chemotherapy,항암치료여부
+56,Hormone therapy,호르몬치료여부
+57,Radiation Therapy,방사선치료여부
+58,Death,사망여부
+59,Survival period,암진단후생존일수
