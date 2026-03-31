@@ -149,8 +149,8 @@ BRCA-Survival-Analysis/
 
 ## Authors
 
-- 김서윤 (Seoyun Kim)
 - 정선우 (Sunwoo Jung)
+- 김서윤 (Seoyun Kim)
 
 *Capstone Design — Practical Survival Analysis with Medical Data*
 
